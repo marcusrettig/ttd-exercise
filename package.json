@@ -6,8 +6,8 @@
   "author": "marcusrettig",
   "license": "ISC",
   "scripts": {
-    "start": "node app.js",
-    "lint": "eslint ."
+    "start": "node src/app.js",
+    "lint": "eslint src"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
