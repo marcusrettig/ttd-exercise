@@ -1,4 +1,6 @@
-const { getMessage } = require('./message');
+const Account = require('./Account');
+
+const account = new Account(800);
 
 /* eslint-disable-next-line no-console */
-console.log(getMessage());
+console.log(`Your balance is ${account.getBalance()}`);
